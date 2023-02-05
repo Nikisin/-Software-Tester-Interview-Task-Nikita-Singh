@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "3580172c-f0f9-41bb-918c-e203f49c7c8b",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24349783"
+	},
+	"item": [
+		{
+			"name": "https://x8ki-letl-twmt.n7.xano.io/api:gHPd8le5/transaction/16",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"coin1\": \"INR\",\r\n\"coin2\": \"USDT\",\r\n\"coin1Amount\": 500,\r\n\"coin2Amount\": 300\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://x8ki-letl-twmt.n7.xano.io/api:gHPd8le5/transaction/16",
+					"protocol": "https",
+					"host": [
+						"x8ki-letl-twmt",
+						"n7",
+						"xano",
+						"io"
+					],
+					"path": [
+						"api:gHPd8le5",
+						"transaction",
+						"16"
+					]
+				},
+				"description": "Software Tester Interview Task Nikita Singh"
+			},
+			"response": []
+		}
+	]
+}
